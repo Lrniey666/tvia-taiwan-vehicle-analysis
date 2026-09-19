@@ -1,21 +1,21 @@
-<p align="center">
+<div align="center">
   <a href="../README.md"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-c43d3d?style=for-the-badge&labelColor=12304f"></a>
   <a href="#readme"><img alt="English" src="https://img.shields.io/badge/English-236bc4?style=for-the-badge&labelColor=12304f"></a>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="assets/hero.svg" alt="Taiwan Vehicle Information Analysis" width="760">
-</p>
+</div>
 
 <h1 align="center">TVIA</h1>
 
-<p align="center">
+<div align="center">
   <strong>Taiwan Vehicle Information Analysis</strong><br>
   台灣車輛資訊分析網<br>
   Open TDX socio-economic data, charted as vehicles, household income, and university students.
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img alt="status" src="https://img.shields.io/badge/status-archived%20showcase-236bc4?style=flat-square&labelColor=12304f">
   <img alt="year" src="https://img.shields.io/badge/year-2023-c43d3d?style=flat-square&labelColor=12304f">
   <img alt="django" src="https://img.shields.io/badge/Django-4.2-092E20?style=flat-square&labelColor=12304f">
@@ -23,9 +23,9 @@
   <img alt="data" src="https://img.shields.io/badge/data-TDX%20open%20data-236bc4?style=flat-square&labelColor=12304f">
   <img alt="locale" src="https://img.shields.io/badge/locale-zh--Hant%20%2F%20en--GB-236bc4?style=flat-square&labelColor=12304f">
   <img alt="licence" src="https://img.shields.io/badge/licence-MIT-6b6b6b?style=flat-square&labelColor=12304f">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <a href="#features">Features</a> ·
   <a href="#demo">Demo</a> ·
   <a href="#architecture">Architecture</a> ·
@@ -34,7 +34,7 @@
   <a href="#contributing">Contributing</a> ·
   <a href="./README.md">Docs index</a> ·
   <a href="../CHANGELOG.md">Changelog</a>
-</p>
+</div>
 
 ---
 
@@ -83,14 +83,14 @@ Monthly income per person against vehicles per 100 000 people; and the univers
 
 Course film (2023): [TVIA introduction](https://youtu.be/rJ5S1eBRaWs)
 
-<p align="center">
+<div align="center">
   <img src="assets/cover.png" alt="TVIA cover: outline of Taiwan, a lorry and a sports car" width="720">
-</p>
-<p align="center"><sub>Home cover. The image opens the film. Four cards lead to ranking, growth, income, and students.</sub></p>
+</div>
+<div align="center"><sub>Home cover. The image opens the film. Four cards lead to ranking, growth, income, and students.</sub></div>
 
-<p align="center">
+<div align="center">
   <img src="assets/webtop.png" alt="Site banner: Taiwan Vehicle Information Analysis" width="720">
-</p>
+</div>
 
 | Family | Paths |
 | --- | --- |
@@ -227,6 +227,6 @@ Chart figures come from MOTC [TDX](https://tdx.transportdata.tw/) open data and 
 
 ---
 
-<p align="center">
+<div align="center">
   <sub>NKUST · Python data-analysis practice · group 10 · 2023</sub>
-</p>
+</div>

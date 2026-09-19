@@ -1,21 +1,21 @@
-<p align="center">
+<div align="center">
   <a href="#readme"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-236bc4?style=for-the-badge&labelColor=12304f"></a>
   <a href="docs/README.en.md"><img alt="English" src="https://img.shields.io/badge/English-c43d3d?style=for-the-badge&labelColor=12304f"></a>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img src="docs/assets/hero.svg" alt="Taiwan Vehicle Information Analysis" width="760">
-</p>
+</div>
 
 <h1 align="center">TVIA</h1>
 
-<p align="center">
+<div align="center">
   <strong>台灣車輛資訊分析網</strong><br>
   Taiwan Vehicle Information Analysis<br>
   用交通部 TDX 開放資料，看縣市車輛、家戶收入與大專學生怎麼疊在一起。
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <img alt="status" src="https://img.shields.io/badge/status-archived%20showcase-236bc4?style=flat-square&labelColor=12304f">
   <img alt="year" src="https://img.shields.io/badge/year-2023-c43d3d?style=flat-square&labelColor=12304f">
   <img alt="django" src="https://img.shields.io/badge/Django-4.2-092E20?style=flat-square&labelColor=12304f">
@@ -23,9 +23,9 @@
   <img alt="data" src="https://img.shields.io/badge/data-TDX%20open%20data-236bc4?style=flat-square&labelColor=12304f">
   <img alt="locale" src="https://img.shields.io/badge/locale-zh--Hant%20%2F%20en--GB-236bc4?style=flat-square&labelColor=12304f">
   <img alt="licence" src="https://img.shields.io/badge/licence-MIT-6b6b6b?style=flat-square&labelColor=12304f">
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <a href="#功能">功能</a> ·
   <a href="#示範">示範</a> ·
   <a href="#架構">架構</a> ·
@@ -34,7 +34,7 @@
   <a href="#貢獻">貢獻</a> ·
   <a href="docs/README.md">文件索引</a> ·
   <a href="CHANGELOG.md">變更紀錄</a>
-</p>
+</div>
 
 ---
 
@@ -81,14 +81,14 @@
 
 課堂介紹影片（2023）：[TVIA 網站介紹](https://youtu.be/rJ5S1eBRaWs)
 
-<p align="center">
+<div align="center">
   <img src="docs/assets/cover.png" alt="TVIA 首頁封面：臺灣輪廓、貨車與跑車" width="720">
-</p>
-<p align="center"><sub>首頁封面。點圖會開介紹影片。四張入口卡分別進排行、成長、收入、學生。</sub></p>
+</div>
+<div align="center"><sub>首頁封面。點圖會開介紹影片。四張入口卡分別進排行、成長、收入、學生。</sub></div>
 
-<p align="center">
+<div align="center">
   <img src="docs/assets/webtop.png" alt="網站頂部橫幅：台灣車輛資訊分析網" width="720">
-</p>
+</div>
 
 | 圖表族 | 入口 |
 | --- | --- |
@@ -225,6 +225,6 @@ original-data/          2023 作業原檔，已被 .gitignore
 
 ---
 
-<p align="center">
+<div align="center">
   <sub>NKUST · Python 資料分析實務 · 第 10 組 · 2023</sub>
-</p>
+</div>
