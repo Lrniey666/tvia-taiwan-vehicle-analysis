@@ -1,6 +1,6 @@
 # 資料來源
 
-圖表數字來自交通部 [Transport Data eXchange (TDX)](https://tdx.transportdata.tw/) 進階 API「社經資料」。本倉不重新散布 TDX 的原始 JSON；示範 fixture 只含聚合後寫進 SQLite 的列。
+圖表數字來自交通部 [Transport Data eXchange (TDX)](https://tdx.transportdata.tw/) 進階 API「社經資料」。本 Repository 不重新散布 TDX 的原始 JSON；示範 fixture 只含聚合後寫進 SQLite 的列。
 
 ## 端點
 

@@ -2,13 +2,13 @@
 
 語言：[繁體中文](CONTRIBUTING.md) · [English](docs/CONTRIBUTING.en.md)
 
-這是 2023 課程網站的封存展示倉。歡迎修文件、補空狀態、改圖表可讀性。請先當歷史作品看，再動手。
+這是 2023 課程網站的封存 Showcase Repository。歡迎修文件、補空狀態、改圖表可讀性。請先當歷史作品看，再動手。
 
 ## 動工前
 
 1. 讀根目錄 [`README.md`](README.md) 與 [`docs/README.md`](docs/README.md)。
 2. 金鑰只放 `.env`。TDX 憑證、Django `SECRET_KEY`、後台帳號都不要進 git。
-3. 衝突時：**圖表定義（車輛／收入／學生怎麼算）> 展示倉整理**。整理時可以參數化路由，但不要默默改分析口徑。
+3. 衝突時：**圖表定義（車輛／收入／學生怎麼算）> Showcase Repository 整理**。整理時可以參數化路由，但不要默默改分析口徑。
 
 ## 慣例
 

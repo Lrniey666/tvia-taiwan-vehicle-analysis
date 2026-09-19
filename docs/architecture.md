@@ -11,7 +11,7 @@ manage.py fetch_tdx  →  fetchers.datasets  →  fetchers.tdx  →  TDX
 ```
 
 - `config.settings` 是唯一讀 `.env` 的地方（Django 密鑰、DEBUG、ALLOWED_HOSTS）。TDX 憑證由 `fetchers.tdx` 直接讀環境變數，**模型裡沒有 API key 欄位**。
-- `analysis` 只在請求週期內跑 ORM。2023 版每個 `.py` 開頭 `sys.path.append('C:\\python-10')` 再 `django.setup()`，展示倉拿掉了。
+- `analysis` 只在請求週期內跑 ORM。2023 版每個 `.py` 開頭 `sys.path.append('C:\\python-10')` 再 `django.setup()`，Showcase Repository 拿掉了。
 - 四個圖表族各一個 view + 一個模板。城市與車種走 URL 參數，不再有 `vehicle_growing_up_TP.html` 到 `_KH.html` 七份拷貝。
 
 ## 路由
@@ -29,7 +29,7 @@ manage.py fetch_tdx  →  fetchers.datasets  →  fetchers.tdx  →  TDX
 
 ## 相對 2023 繳交檔
 
-| 2023 | 2026 展示倉 |
+| 2023 | 2026 Showcase Repository |
 | --- | --- |
 | 專案名 `python10`、app `mysite` | `config`、`dashboard` |
 | TDX key 寫在 fetcher 與 `Tdx_api` 表 | `.env` → `fetchers.tdx` |

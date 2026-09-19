@@ -7,7 +7,7 @@
 | 檔案 | 內容 |
 | --- | --- |
 | [README.en.md](README.en.md) | 與根目錄 README 對等的英文 |
-| [architecture.md](architecture.md) | 模組邊界、路由表、展示倉相對 2023 繳交檔改了什麼 |
+| [architecture.md](architecture.md) | 模組邊界、路由表、Showcase Repository 相對 2023 繳交檔改了什麼 |
 | [data-sources.md](data-sources.md) | TDX 端點、欄位單位、對齊規則 |
 | [CONTRIBUTING.en.md](CONTRIBUTING.en.md) | 貢獻指南英文 |
 | [assets/](assets/) | Hero、封面、頂欄、四張入口卡 |
