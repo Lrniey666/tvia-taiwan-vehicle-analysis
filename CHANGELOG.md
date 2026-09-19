@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
-- GitHub showcase tree at the repository root: Django project `config/`, app `dashboard/`, analysis helpers, TDX fetchers, bilingual README (zh-Hant / en-GB).
+- GitHub showcase tree at the repository root: Django project `config/`, app `dashboard/`, analysis helpers, TDX fetchers, bilingual README (zh-Hant / en).
 - Environment-based secrets (`.env.example`): Django secret key, allowed hosts, TDX client id/secret. Extra TDX apps rotate via `TDX_CLIENT_ID_2` and onwards.
 - Management commands `fetch_tdx` and `import_legacy`. Secret-free demo fixture `data/fixtures/demo.json.gz`.
 - Parameterised chart routes (one view/template per family instead of a page per city).

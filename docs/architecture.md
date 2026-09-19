@@ -1,6 +1,6 @@
 # 架構
 
-語言：[繁體中文](architecture.md) · [English (UK)](README.en-GB.md)
+語言：[繁體中文](architecture.md) · [English](README.en.md)
 
 ## 模組
 

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="../README.md"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-c43d3d?style=for-the-badge&labelColor=12304f"></a>
-  <a href="#readme"><img alt="English (UK)" src="https://img.shields.io/badge/English_(UK)-236bc4?style=for-the-badge&labelColor=12304f"></a>
+  <a href="#readme"><img alt="English" src="https://img.shields.io/badge/English-236bc4?style=for-the-badge&labelColor=12304f"></a>
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@
 
 How many vehicles each county keeps, where household income is going, and how large a share university students are of the population — those numbers already live in MOTC’s TDX socio-economic APIs. TVIA stores them in local SQLite and draws four Chart.js families: a national ranking, a growth-versus-income series, six-municipality per-capita bars, and a student-mix comparison.
 
-English in this repository is **British English**.
+English in this repository is **English**.
 
 > **Status.** This is the 2023 NKUST *Python data-analysis practice* site from group 10, packaged for GitHub in 2026. The chart definitions stay as submitted. Keys, student numbers, and coursework drafts remain in the gitignored `original-data/` tree. The demo fixture covers 2021–2023; refresh it with your own TDX application credentials.
 
@@ -137,7 +137,7 @@ The browser talks only to Django. Ingest is a management command, not a per-page
 | Site | `dashboard/` | Routes, models, admin, commands |
 | Aggregation | `analysis/` | Rankings, dual-axis series, six-city ratios |
 | Ingest | `fetchers/` | TDX OAuth2 client-credentials |
-| Docs | `docs/` | British English, architecture, data sources |
+| Docs | `docs/` | English, architecture, data sources |
 
 <details>
 <summary><strong>Technical notes (collapsible)</strong></summary>
@@ -206,7 +206,7 @@ fetchers/               TDX client; credentials from the environment only
 templates/              home plus four chart templates
 static/                 cover, entry cards, favicon
 data/fixtures/          secret-free demo data (gzip JSON)
-docs/                   notes and Hero; en-GB lives here
+docs/                   notes and Hero; English lives here
 LICENSE                 MIT
 CONTRIBUTING.md         contribution rules
 CHANGELOG.md            Keep a Changelog 2.0.0

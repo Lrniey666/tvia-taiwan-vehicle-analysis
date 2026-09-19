@@ -1,6 +1,6 @@
 # 貢獻指南
 
-語言：[繁體中文](CONTRIBUTING.md) · [English (UK)](docs/CONTRIBUTING.en-GB.md)
+語言：[繁體中文](CONTRIBUTING.md) · [English](docs/CONTRIBUTING.en.md)
 
 這是 2023 課程網站的封存展示倉。歡迎修文件、補空狀態、改圖表可讀性。請先當歷史作品看，再動手。
 
@@ -14,7 +14,7 @@
 
 | 項目 | 約定 |
 | --- | --- |
-| 對外說明 | 繁中在 `README.md`；英式英文在 `docs/README.en-GB.md`，兩邊一起改 |
+| 對外說明 | 繁中在 `README.md`；英文在 `docs/README.en.md`，兩邊一起改 |
 | 日期 | `YYYY-MM-DD`，台北時間 |
 | 變更紀錄 | `CHANGELOG.md` 的 `## [Unreleased]`（Keep a Changelog 2.0.0） |
 | 組員具名 | 用 GitHub 帳號：`Lrniey666`、`ejiru4u3`、`zhangkjim` |
@@ -32,5 +32,5 @@
 ## 改完必做
 
 1. Notable 變更寫進 `CHANGELOG.md` → `## [Unreleased]`
-2. 動到 Hero／安裝／結構 → 繁中與 en-GB README 一起改
+2. 動到 Hero／安裝／結構 → 繁中與英文 README 一起改
 3. `python manage.py test`

@@ -1,6 +1,6 @@
 # Contributing
 
-Languages: [繁體中文](../CONTRIBUTING.md) · [English (UK)](CONTRIBUTING.en-GB.md)
+Languages: [繁體中文](../CONTRIBUTING.md) · [English](CONTRIBUTING.en.md)
 
 This is an archived 2023 coursework site. Fixes to docs, empty states, and chart readability are welcome. Treat it as a historical artefact first.
 
@@ -14,7 +14,7 @@ This is an archived 2023 coursework site. Fixes to docs, empty states, and chart
 
 | Item | Rule |
 | --- | --- |
-| Public docs | Traditional Chinese in `README.md`; British English in `docs/README.en-GB.md`. Change both. |
+| Public docs | Traditional Chinese in `README.md`; English in `docs/README.en.md`. Change both. |
 | Dates | `YYYY-MM-DD`, Taipei time |
 | Changelog | `CHANGELOG.md` → `## [Unreleased]` (Keep a Changelog 2.0.0) |
 | Credits | GitHub handles only: `Lrniey666`, `ejiru4u3`, `zhangkjim` |

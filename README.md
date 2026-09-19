@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#readme"><img alt="繁體中文" src="https://img.shields.io/badge/%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87-236bc4?style=for-the-badge&labelColor=12304f"></a>
-  <a href="docs/README.en-GB.md"><img alt="English (UK)" src="https://img.shields.io/badge/English_(UK)-c43d3d?style=for-the-badge&labelColor=12304f"></a>
+  <a href="docs/README.en.md"><img alt="English" src="https://img.shields.io/badge/English-c43d3d?style=for-the-badge&labelColor=12304f"></a>
 </p>
 
 <p align="center">
@@ -135,7 +135,7 @@ flowchart LR
 | 網頁 | `dashboard/` | 路由、模型、admin、管理指令 |
 | 聚合 | `analysis/` | 排行、雙軸序列、六都比例 |
 | 擷取 | `fetchers/` | TDX OAuth2 client-credentials |
-| 展示文件 | `docs/` | 英式英文、架構、資料來源 |
+| 展示文件 | `docs/` | 英文、架構、資料來源 |
 
 <details>
 <summary><strong>技術細節（可折疊）</strong></summary>
@@ -204,7 +204,7 @@ fetchers/               TDX 用戶端；憑證只從環境變數讀
 templates/              首頁 + 四個圖表模板
 static/                 封面、入口卡、favicon
 data/fixtures/          不含密鑰的示範資料（gzip JSON）
-docs/                   說明與 Hero；英文對照在 README.en-GB.md
+docs/                   說明與 Hero；英文對照在 README.en.md
 LICENSE                 MIT
 CONTRIBUTING.md         貢獻約定
 CHANGELOG.md            Keep a Changelog 2.0.0
