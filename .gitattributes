@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.md text
+*.py text
+*.html text
+*.css text
+*.svg text
+*.json text
+*.png binary
+*.ico binary
+*.jpg binary

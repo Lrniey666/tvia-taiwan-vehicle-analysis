@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand-lg navbar-dark site-nav">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#tviaNav" aria-controls="tviaNav" aria-expanded="false" aria-label="開啟選單">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="tviaNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">車輛數排行</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{% url 'ranking' %}">全國車輛</a></li>
+            <li><a class="dropdown-item" href="{% url 'ranking_kind' 'car' %}">小汽車</a></li>
+            <li><a class="dropdown-item" href="{% url 'ranking_kind' 'scooter' %}">機車</a></li>
+            <li><a class="dropdown-item" href="{% url 'ranking_kind' 'truck' %}">大貨車</a></li>
+            <li><a class="dropdown-item" href="{% url 'ranking_kind' 'bus' %}">大客車</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">六都成長與收入</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{% url 'growth' %}">全國</a></li>
+            <li><a class="dropdown-item" href="{% url 'growth_city' 'taipei' %}">臺北市</a></li>
+            <li><a class="dropdown-item" href="{% url 'growth_city' 'new-taipei' %}">新北市</a></li>
+            <li><a class="dropdown-item" href="{% url 'growth_city' 'taoyuan' %}">桃園市</a></li>
+            <li><a class="dropdown-item" href="{% url 'growth_city' 'taichung' %}">臺中市</a></li>
+            <li><a class="dropdown-item" href="{% url 'growth_city' 'tainan' %}">臺南市</a></li>
+            <li><a class="dropdown-item" href="{% url 'growth_city' 'kaohsiung' %}">高雄市</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">人均收入與車輛</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{% url 'income' %}">全部車輛</a></li>
+            <li><a class="dropdown-item" href="{% url 'income_kind' 'car' %}">小汽車</a></li>
+            <li><a class="dropdown-item" href="{% url 'income_kind' 'scooter' %}">機車</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">學生比例與車輛</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{% url 'students_kind' 'car' %}">小汽車</a></li>
+            <li><a class="dropdown-item" href="{% url 'students_kind' 'scooter' %}">機車</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="https://tdx.transportdata.tw/" rel="noopener">TDX</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://youtu.be/rJ5S1eBRaWs" rel="noopener">介紹影片</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}{{ chart_title }} · TVIA{% endblock %}
+
+{% block content %}
+<h1 class="chart-title">{{ chart_title }}</h1>
+{% if empty %}
+  {% include "includes/empty.html" %}
+{% else %}
+<div class="chart-wrap">
+  <canvas id="chart"></canvas>
+</div>
+<script>
+  new Chart(document.getElementById("chart"), {
+    type: "bar",
+    data: {
+      labels: {{ city_names|safe }},
+      datasets: [
+        {
+          label: "{{ vehicle_label }}",
+          data: {{ vehicle_values|safe }},
+          backgroundColor: "#236bc4",
+          yAxisID: "y",
+        },
+        {
+          label: "人均月收入（元）",
+          data: {{ income_values|safe }},
+          backgroundColor: "#c43d3d",
+          yAxisID: "y1",
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: false,
+      plugins: { legend: { position: "top" } },
+      scales: {
+        y: { title: { display: true, text: "{{ vehicle_label }}" } },
+        y1: {
+          position: "right",
+          grid: { drawOnChartArea: false },
+          title: { display: true, text: "人均月收入（元）" },
+        },
+      },
+    },
+  });
+</script>
+{% endif %}
+{% endblock %}

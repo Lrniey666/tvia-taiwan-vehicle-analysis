@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="cover">
+  <a href="https://youtu.be/rJ5S1eBRaWs" rel="noopener">
+    <img src="{% static 'images/the_cover.png' %}" alt="TVIA 打開車輛數據分析的新視界">
+  </a>
+</div>
+<div class="image-grid">
+  <a class="image-item" href="{% url 'ranking' %}">
+    <img src="{% static 'images/vqr_link.png' %}" alt="全國車輛數排行">
+  </a>
+  <a class="image-item" href="{% url 'growth' %}">
+    <img src="{% static 'images/vigc_link.png' %}" alt="六都車輛成長與收入">
+  </a>
+  <a class="image-item" href="{% url 'income' %}">
+    <img src="{% static 'images/scivic_link.png' %}" alt="六都人均收入與車輛">
+  </a>
+  <a class="image-item" href="{% url 'students' %}">
+    <img src="{% static 'images/scsav_link.png' %}" alt="六都學生比例與車輛">
+  </a>
+</div>
+{% endblock %}

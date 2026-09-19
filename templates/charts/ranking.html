@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}{{ chart_title }} · TVIA{% endblock %}
+
+{% block content %}
+<h1 class="chart-title">{{ chart_title }}</h1>
+{% if empty %}
+  {% include "includes/empty.html" %}
+{% else %}
+<div class="chart-wrap">
+  <canvas id="chart"></canvas>
+</div>
+<script>
+  const labels = {{ city_names|safe }};
+  const values = {{ values|safe }};
+  const start = [35, 82, 164];
+  const end = [198, 219, 240];
+  const colors = values.map((_, i) => {
+    const t = values.length <= 1 ? 0 : i / (values.length - 1);
+    const ch = (a, b) => Math.round(a + (b - a) * t);
+    return `rgb(${ch(start[0], end[0])}, ${ch(start[1], end[1])}, ${ch(start[2], end[2])})`;
+  });
+  new Chart(document.getElementById("chart"), {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [{
+        label: "{{ y_label }}",
+        data: values,
+        backgroundColor: colors,
+      }],
+    },
+    options: {
+      indexAxis: "y",
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => Number(ctx.parsed.x).toLocaleString("zh-Hant-TW"),
+          },
+        },
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          title: { display: true, text: "{{ y_label }}" },
+          ticks: { callback: (v) => Number(v).toLocaleString("zh-Hant-TW") },
+        },
+        y: { ticks: { autoSkip: false } },
+      },
+    },
+  });
+</script>
+{% endif %}
+{% endblock %}

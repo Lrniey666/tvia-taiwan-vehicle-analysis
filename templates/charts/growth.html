@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}{{ chart_title }} · TVIA{% endblock %}
+
+{% block content %}
+<h1 class="chart-title">{{ chart_title }}</h1>
+{% if empty %}
+  {% include "includes/empty.html" %}
+{% else %}
+<div class="chart-wrap">
+  <canvas id="chart"></canvas>
+</div>
+<script>
+  const labels = {{ years|safe }};
+  new Chart(document.getElementById("chart"), {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "車輛數（輛）",
+          data: {{ vehicle_values|safe }},
+          borderColor: "#236bc4",
+          backgroundColor: "#236bc4",
+          tension: 0.15,
+          yAxisID: "y",
+        },
+        {
+          label: "家戶收入合計（百萬）",
+          data: {{ income_values|safe }},
+          borderColor: "#c43d3d",
+          backgroundColor: "#c43d3d",
+          tension: 0.15,
+          yAxisID: "y1",
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: false,
+      plugins: { legend: { position: "top" } },
+      scales: {
+        y: { title: { display: true, text: "車輛數（輛）" } },
+        y1: {
+          position: "right",
+          grid: { drawOnChartArea: false },
+          title: { display: true, text: "家戶收入合計（百萬）" },
+        },
+      },
+    },
+  });
+</script>
+{% endif %}
+{% endblock %}

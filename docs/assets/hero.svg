@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Taiwan Vehicle Information Analysis</title>
+  <desc id="desc">TVIA dashboard for vehicle, income and student charts from Taiwan open transport data.</desc>
+  <style>
+    .bg { fill: #f4f8fc; }
+    .frame { fill: none; stroke: #d5e3f2; stroke-width: 1; }
+    .ink { fill: #12304f; }
+    .muted { fill: #5b6b7c; }
+    .blue { fill: #236bc4; }
+    .red { fill: #c43d3d; }
+    .chip { fill: #ffffff; stroke: #d5e3f2; stroke-width: 1; }
+    .title { font: 700 54px "Segoe UI", "Noto Sans TC", sans-serif; fill: #12304f; }
+    .tag { font: 400 20px "Segoe UI", "Noto Sans TC", sans-serif; fill: #5b6b7c; }
+    .chip-text { font: 600 16px "Segoe UI", "Noto Sans TC", sans-serif; fill: #12304f; }
+    .rule { stroke: #236bc4; stroke-width: 4; stroke-linecap: round; }
+    .island { fill: #236bc4; }
+    .bar { fill: #236bc4; }
+    .bar2 { fill: #7aa4d9; }
+    .axis { stroke: #b7c9db; stroke-width: 2; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0f1c2b; }
+      .frame { stroke: #2a3f58; }
+      .ink, .title, .chip-text { fill: #e8f1fb; }
+      .muted, .tag { fill: #9aadc2; }
+      .chip { fill: #16263a; stroke: #2a3f58; }
+    }
+  </style>
+  <rect class="bg" width="1200" height="360" rx="28"/>
+  <rect class="frame" x="0.5" y="0.5" width="1199" height="359" rx="28"/>
+
+  <g transform="translate(64,86)">
+    <path class="island" d="M42 8c18-6 36 8 40 28 6 28-2 54-8 80-4 16 2 28 14 36 8 5 6 18-4 22-22 8-40-10-52-28-14-22-28-18-40-8-10 8-22 2-20-12 4-28 18-52 28-78 6-16 22-34 42-40z"/>
+    <circle fill="#ffffff" cx="38" cy="48" r="5"/>
+    <circle fill="#ffffff" cx="52" cy="88" r="5"/>
+    <circle fill="#ffffff" cx="34" cy="124" r="5"/>
+  </g>
+
+  <g transform="translate(210,78)">
+    <text class="title" x="0" y="58">TVIA</text>
+    <line class="rule" x1="2" y1="78" x2="92" y2="78"/>
+    <text class="tag" x="0" y="112">Taiwan Vehicle Information Analysis</text>
+    <text class="tag" x="0" y="142">Ê × 6e × x · ¤è TDX</text>
+  </g>
+
+  <g transform="translate(210,250)">
+    <rect class="chip" width="150" height="42" rx="12"/>
+    <text class="chip-text" x="22" y="27">Django 4.2</text>
+    <rect class="chip" x="166" width="140" height="42" rx="12"/>
+    <text class="chip-text" x="188" y="27">Chart.js</text>
+    <rect class="chip" x="322" width="150" height="42" rx="12"/>
+    <text class="chip-text" x="350" y="27">Open data</text>
+  </g>
+
+  <g transform="translate(760,70)">
+    <line class="axis" x1="0" y1="210" x2="360" y2="210"/>
+    <rect class="bar" x="24" y="70" width="36" height="140"/>
+    <rect class="bar2" x="72" y="110" width="36" height="100"/>
+    <rect class="bar" x="120" y="40" width="36" height="170"/>
+    <rect class="bar2" x="168" y="92" width="36" height="118"/>
+    <rect class="bar" x="216" y="58" width="36" height="152"/>
+    <rect class="bar2" x="264" y="128" width="36" height="82"/>
+    <path fill="none" stroke="#c43d3d" stroke-width="4" d="M42 150 L90 132 L138 88 L186 120 L234 96 L282 148"/>
+    <circle class="red" cx="42" cy="150" r="5"/>
+    <circle class="red" cx="138" cy="88" r="5"/>
+    <circle class="red" cx="234" cy="96" r="5"/>
+  </g>
+</svg>
